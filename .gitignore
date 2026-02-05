@@ -1,7 +1,12 @@
 #Run result artifacts
-results/**
+tau-bench/results/**
+tau-bench/auto-error-identification/**
+tau-bench/command_line_outputs/**
+tau-bench/historical_trajectories/**
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *.egg-info/
+.DS_Store
+*.zip
