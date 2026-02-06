@@ -15,7 +15,7 @@ from datasets import load_dataset, Dataset
 from openai import OpenAI
 
 # Initialize OpenAI client - set your API key
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
 
 OUTPUT_FILE = "rules_dataset.json"
 
@@ -217,4 +217,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
